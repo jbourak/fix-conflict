@@ -21,5 +21,11 @@ Now let's explore the relationship between
 our two variables using a scatter-plot.
 
 ```{r}
-plot <- NULL
+plot <- students |> 
+  ggplot(mapping = aes(x = absences, y = G3)) +
+  geom_jitter(alpha = 0.5) +
+  ggtitle("Student Absences vs. Final Grade (%)") +
+  xlab("Number of absences") +
+  ylab("Final grade (%)")
+plot
 ```
