@@ -1,0 +1,26 @@
+# Worksheet: Version Control
+
+*Note: data used in this simple analysis is from [UCL Machine Learning Repository: Student Performance Data Set](https://archive.ics.uci.edu/ml/datasets/Student+Performance).*
+
+Load the required libraries.
+
+```{r}
+library(tidyverse)
+```
+
+Read in the data `student-mat.csv`.
+We convrt the final grade `G3` to a percent
+(note that the value given is a score out of 20)
+and give it a better name: `final_grade`.
+
+```{r}
+students <- null
+```
+
+Now let's explore the relationship between
+`absences` and `G3` (final grade) using a scatter-plot.
+We plot `absences` on the x-axis and `G3` on the y-axis.
+
+```{r}
+plot <- NULL
+```
