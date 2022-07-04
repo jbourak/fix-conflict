@@ -14,7 +14,9 @@ We convrt the final grade `G3` to a percent
 and give it a better name: `final_grade`.
 
 ```{r}
-students <- null
+students <- read_delim("student-mat.csv", delim = ";") |> 
+  mutate(final_grade = (G3 / 20) * 100) |> 
+  select(absences, final_grade)
 ```
 
 Now let's explore the relationship between
