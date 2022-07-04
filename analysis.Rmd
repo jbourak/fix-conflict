@@ -18,8 +18,7 @@ students <- null
 ```
 
 Now let's explore the relationship between
-`absences` and `G3` (final grade) using a scatter-plot.
-We plot `absences` on the x-axis and `G3` on the y-axis.
+our two variables using a scatter-plot.
 
 ```{r}
 plot <- NULL
