@@ -9,7 +9,7 @@ library(tidyverse)
 ```
 
 Read in the data `student-mat.csv`.
-We convrt the final grade `G3` to a percent
+We convert the final grade `G3` to a percent
 (note that the value given is a score out of 20)
 and give it a better name: `final_grade`.
 
